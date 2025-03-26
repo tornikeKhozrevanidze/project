@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+
+}
+body{
+    height: 124vw;
+}
+header{
+    height: 5vw;
+    background-color: rgb(95, 95, 95);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 2vw;
+    width: 90%;
+    align-self: self-end;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 2vw;
+    margin-bottom: 3vw;
+    
+}
+.header-div{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #e2e1e1;
+    box-shadow: 10px 0px 10px black;
+    height: 15vw;
+    box-shadow: 0px 0px 5px gray;
+}
+header nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    list-style: none;
+    gap: 4vw;
+}
+nav button{
+    border: none;
+    background: none;
+    color: #FFFFFF;
+    font-size: 1.2vw !important;
+    font-weight: 600;
+    display: flex;
+}
+nav button:hover{
+    transform: scale(1.1);
+}
+
+.home{
+    height: 3vw;
+    width: 7vw;
+    background-color: #FFB81F;
+    border-radius: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0px;
+    box-shadow: 0px 0px 3px rgb(40, 40, 58);
+    
+}
+.home:hover{
+    transform: scale(1.05);
+}
+.home button{
+    color: #1C1B44 ;
+    font-size: 1.1vw !important;
+    
+    
+    
+}
+.home button:hover{
+    transform: scale(1) !important;
+}
+
+
+form{
+    margin-left: 4vw;
+}
+select{
+    border-radius: 2vw;
+    border:0.3vw solid  #FFB81F;
+    color:  #FFB81F;
+    background: none;
+    width: 7vw;
+    height: 4vw;
+}
+form div{
+    display: flex;
+    gap: 1vw;
+    height: 2vw;
+}
+form label{
+    color: white;
+    font-weight: 700;
+    font-size: 1.2vw;
+}
+form input{
+    width: 1.5vw;
+   
+}
+section div{
+    width: 30vw;
+    box-shadow: 0px 0px 5px -2px black;
+    padding-bottom: 2vw;
+}
+section div:hover{
+    transform: scale(1.05);
+    transition: 0.1s;
+}
+
+section img{
+    width: 30vw;
+    
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    margin-top: 3vw;
+    justify-content: center;
+    
+}
+a{
+    text-decoration: none;
+}
+.projects{
+    margin-left: 3vw;
+    margin-top: 5vw;
+    font-size: 4vw;
+    margin-bottom: 6vw;
+}
+section h1{
+    font-size: 2vw;
+    margin-left: 0.5vw;
+}
+
+section h3{
+    font-size: 1.4vw;
+    margin-left: 0.5vw;
+}
+section p{
+    margin-top: 2vw;
+    font-size: 1.5vw;
+    margin-left: 0.5vw;
+}
+section h4{
+    justify-self: self-end;
+    align-self: self-end;
+    font-size: 1vw;
+    margin-right: 1.5vw;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 3vw;
+    text-align: left;
+    border: 1px solid #000000;
+    border-radius: 2vw;
+    margin: 2.2vw;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px rgb(98, 97, 95);
+    position: absolute;
+    top: 108vw;
+    
+    margin-bottom: 3vw;
+    align-items: start;
+   
+   
+    background-color: rgb(95, 95, 95);
+}
+
+.company-info, .contact-info, .working-hours {
+    flex: 1;
+    margin: 0 10px;
+}
+.footer h5{
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
+}
+
+footer p{
+    font-size: 1.5vw;
+}
+footer h3{
+    font-size: 2vw;
+    margin-bottom: 1vw;
+}
+.footer-div{
+    width: 100%;
+    height: 28vw;
+    background-color:  #e2e1e1;
+    box-shadow: 0px 0px 5px gray;
+    margin-top: 10vw;
+}
+@media (max-width: 430px){
+    section div{
+        width: 80vw;
+        box-shadow: 0px 0px 5px -3px black;
+        padding-bottom: 2vw;
+    }
+    section img{
+        width: 80vw;
+        
+    }
+    section h1{
+        font-size: 4vw;
+        margin-left: 1vw;
+    }
+    
+    section h3{
+        font-size: 3vw;
+        margin-left: 1vw;
+    }
+    section p{
+        margin-top: 6vw;
+        font-size: 2vw;
+        margin-left: 1vw;
+    }
+    section h4{
+        justify-self: self-end;
+        align-self: self-end;
+        font-size: 2vw;
+        margin-right: 1.5vw;
+    }
+    section{
+        gap: 8vw;
+    }
+    .footer{
+        top: 498vw;
+    }
+    
+    
+}
