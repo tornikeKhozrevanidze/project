@@ -10,8 +10,8 @@ body{
     height: 124vw;
 }
 header{
-    height: 5vw;
-    background-color: rgb(95, 95, 95);
+    height: 4.5vw;
+    background-color: rgb(57, 57, 57);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -223,12 +223,12 @@ footer h3{
     width: 6vw;
     height: 6vw;
 }
-.logo-main h1{
+.logo-main h4{
     color:  #FFB81F;
     text-shadow: 0px 0px 2px black;
     font-size: 4vw;
 }
-.logo-main p{
+.logo-main h2{
     font-size: 2vw;
 }
 .logo-div{
@@ -237,6 +237,7 @@ footer h3{
     justify-content: center;
     align-items: end;
 }
+
 
 @media (max-width: 430px){
     section div{
